@@ -1,0 +1,278 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>surat penugasan</h:title>
+    <model>
+      <instance>
+        <data id="build_surat-penugasan_1458596027">
+          <meta>
+            <instanceID/>
+          </meta>
+          <form_dasarPenugasan/>
+          <form_tanggal/>
+          <form_group jr:template="">
+            <nama/>
+            <jabatan/>
+          </form_group>
+          <instansi/>
+          <alamat/>
+          <form_Keterangan/>
+          <ttd/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/form_dasarPenugasan:label">
+            <value>Dasar Penugasan</value>
+          </text>
+          <text id="/data/form_tanggal:label">
+            <value>Tanggal Penugasan</value>
+          </text>
+          <text id="/data/form_group:label">
+            <value>Nama dan NIP Tertuju</value>
+          </text>
+          <text id="/data/form_group/nama:label">
+            <value>Nama dan NIP</value>
+          </text>
+          <text id="/data/form_group/nama:hint">
+            <value>pilih nama dan NIP anda</value>
+          </text>
+          <text id="/data/form_group/nama:option0">
+            <value>195810051986031000-Prof. Ir. Arif Djunaidy, M.Sc., Ph.D.</value>
+          </text>
+          <text id="/data/form_group/nama:option1">
+            <value>196403051989031000-Ir. Khakim Ghozali, M.MT</value>
+          </text>
+          <text id="/data/form_group/nama:option2">
+            <value>196503101991021000-Ir. Aris Tjahyanto, M.Kom</value>
+          </text>
+          <text id="/data/form_group/nama:option3">
+            <value>196606021992031000-Ir. Achmad Holil Noor Ali, M.Kom.</value>
+          </text>
+          <text id="/data/form_group/nama:option4">
+            <value>196907252003121000-Edwin Riksakomara, S.Kom.MT</value>
+          </text>
+          <text id="/data/form_group/nama:option5">
+            <value>196911152005011000-Bambang Setiawan, S.Kom, MT</value>
+          </text>
+          <text id="/data/form_group/nama:option6">
+            <value>197002252009121000-Dr. Apol Pribadi Subriadi, ST., MT</value>
+          </text>
+          <text id="/data/form_group/nama:option7">
+            <value>197004272005012000-Erma Suryani, ST., MT., Ph.D</value>
+          </text>
+          <text id="/data/form_group/nama:option8">
+            <value>197010102003121000-Mudjahidin, ST,.MT</value>
+          </text>
+          <text id="/data/form_group/nama:option9">
+            <value>197103132009121000-Sholiq, ST., M.Kom</value>
+          </text>
+          <text id="/data/form_group/nama:option10">
+            <value>197302191998021000-Febriliyan Samopa, S.Kom., M.Kom.</value>
+          </text>
+          <text id="/data/form_group/nama:option11">
+            <value>197504052008011000-Bekti Cahyo Hidayanto, S.Si., M.Kom.</value>
+          </text>
+          <text id="/data/form_group/nama:option12">
+            <value>197512112008121000-Tony Dwi Susanto, ST., MT., Ph.D</value>
+          </text>
+          <text id="/data/form_group/nama:option13">
+            <value>197601232001122000-Wiwik Anggraeni, S.Si.,M.Kom</value>
+          </text>
+          <text id="/data/form_group/nama:option14">
+            <value>197610112006042000-Mahendrawathi ER., ST.,M.Sc.,Ph.D.</value>
+          </text>
+          <text id="/data/form_group/nama:option15">
+            <value>197704082002121000-Faizal Johan Atletiko, S.Kom.</value>
+          </text>
+          <text id="/data/form_group/nama:option16">
+            <value>198106112008121000-Danu Pranantha, ST, M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option17">
+            <value>198107172012122000-Renny Pradina Kusumawardani, ST., MT.</value>
+          </text>
+          <text id="/data/form_group/nama:option18">
+            <value>198112292005011000-Rully Agus Hendrawan, S.Kom., M.Eng</value>
+          </text>
+          <text id="/data/form_group/nama:option19">
+            <value>198201202005012000-Nur Aini Rakhmawati, S.Kom., M.Sc.Eng</value>
+          </text>
+          <text id="/data/form_group/nama:option20">
+            <value>198203022009121000-Ahmad Muklason, S.Kom., M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option21">
+            <value>198302232009122000-Feby Artwodini Muqtadiroh, S.Kom., M.T</value>
+          </text>
+          <text id="/data/form_group/nama:option22">
+            <value>198303062012121000-Arif Wibisono, S.Kom.,M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option23">
+            <value>198305272010121000-Nisfu Asrul Sani, S. Kom, M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option24">
+            <value>198402032010121000-Radityo Prasetianto Wibowo, S.Kom, M.Kom.</value>
+          </text>
+          <text id="/data/form_group/jabatan:label">
+            <value>Jabatan</value>
+          </text>
+          <text id="/data/instansi:label">
+            <value>Nama Instansi Penugasan</value>
+          </text>
+          <text id="/data/alamat:label">
+            <value>Alamat Penugasan</value>
+          </text>
+          <text id="/data/form_Keterangan:label">
+            <value>Keterangan Penugasan</value>
+          </text>
+          <text id="/data/form_Keterangan:hint">
+            <value>tuliskan kepentinganya</value>
+          </text>
+          <text id="/data/ttd:label">
+            <value>Tanda Tangan</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/form_dasarPenugasan" type="string" required="true()"/>
+      <bind nodeset="/data/form_tanggal" type="date" required="true()"/>
+      <bind nodeset="/data/form_group/nama" type="select" required="true()"/>
+      <bind nodeset="/data/form_group/jabatan" type="string" required="true()"/>
+      <bind nodeset="/data/instansi" type="string"/>
+      <bind nodeset="/data/alamat" type="string" required="true()"/>
+      <bind nodeset="/data/form_Keterangan" type="string" required="true()"/>
+      <bind nodeset="/data/ttd" type="binary" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/form_dasarPenugasan">
+      <label ref="jr:itext('/data/form_dasarPenugasan:label')"/>
+    </input>
+    <input ref="/data/form_tanggal">
+      <label ref="jr:itext('/data/form_tanggal:label')"/>
+    </input>
+    <group>
+      <label ref="jr:itext('/data/form_group:label')"/>
+      <repeat nodeset="/data/form_group" appearance="field-list">
+        <select ref="/data/form_group/nama">
+          <label ref="jr:itext('/data/form_group/nama:label')"/>
+          <hint ref="jr:itext('/data/form_group/nama:hint')"/>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option0')"/>
+            <value>51986031000-Prof. Ir. Arif Djunaidy, M.Sc., Ph.D.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option1')"/>
+            <value>196403051989031000-Ir. Khakim Ghozali, M.MT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option2')"/>
+            <value>196503101991021000-Ir. Aris Tjahyanto, M.Kom</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option3')"/>
+            <value>196606021992031000-Ir. Achmad Holil Noor Ali, M.Kom.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option4')"/>
+            <value>196907252003121000-Edwin Riksakomara, S.Kom.MT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option5')"/>
+            <value>196911152005011000-Bambang Setiawan, S.Kom, MT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option6')"/>
+            <value>197002252009121000-Dr. Apol Pribadi Subriadi, ST., MT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option7')"/>
+            <value>197004272005012000-Erma Suryani, ST., MT., Ph.D</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option8')"/>
+            <value>197010102003121000-Mudjahidin, ST,.MT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option9')"/>
+            <value>197103132009121000-Sholiq, ST., M.Kom</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option10')"/>
+            <value>197302191998021000-Febriliyan Samopa, S.Kom., M.Kom.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option11')"/>
+            <value>197504052008011000-Bekti Cahyo Hidayanto, S.Si., M.Kom.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option12')"/>
+            <value>197512112008121000-Tony Dwi Susanto, ST., MT., Ph.D</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option13')"/>
+            <value>197601232001122000-Wiwik Anggraeni, S.Si.,M.Kom</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option14')"/>
+            <value>197610112006042000-Mahendrawathi ER., ST.,M.Sc.,Ph.D.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option15')"/>
+            <value>197704082002121000-Faizal Johan Atletiko, S.Kom.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option16')"/>
+            <value>198106112008121000-Danu Pranantha, ST, M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option17')"/>
+            <value>1981071720121220000Renny Pradina Kusumawardani, ST., MT.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option18')"/>
+            <value>198112292005011000-Rully Agus Hendrawan, S.Kom., M.Eng</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option19')"/>
+            <value>198201202005012000-Nur Aini Rakhmawati, S.Kom., M.Sc.Eng</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option20')"/>
+            <value>198203022009121000-Ahmad Muklason, S.Kom., M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option21')"/>
+            <value>198302232009122000-Feby Artwodini Muqtadiroh, S.Kom., M.T</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option22')"/>
+            <value>198303062012121000-Arif Wibisono, S.Kom.,M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option23')"/>
+            <value>198305272010121000-Nisfu Asrul Sani, S. Kom, M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option24')"/>
+            <value>198402032010121000-Radityo Prasetianto Wibowo, S.Kom, M.Kom.</value>
+          </item>
+        </select>
+        <input ref="/data/form_group/jabatan">
+          <label ref="jr:itext('/data/form_group/jabatan:label')"/>
+        </input>
+      </repeat>
+    </group>
+    <input ref="/data/instansi">
+      <label ref="jr:itext('/data/instansi:label')"/>
+    </input>
+    <input ref="/data/alamat">
+      <label ref="jr:itext('/data/alamat:label')"/>
+    </input>
+    <input ref="/data/form_Keterangan">
+      <label ref="jr:itext('/data/form_Keterangan:label')"/>
+      <hint ref="jr:itext('/data/form_Keterangan:hint')"/>
+    </input>
+    <upload ref="/data/ttd"  appearance="signature" mediatype="image/*">
+      <label ref="jr:itext('/data/ttd:label')"/>
+    </upload>
+  </h:body>
+</h:html>
