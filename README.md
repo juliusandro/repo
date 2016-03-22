@@ -48,7 +48,7 @@ odk dimulai sebagai projek yang disponsori oleh google.org dibawah
 pengawasan direktur Gaetano Borriello pada April 2008 di kantor Google Seatle. Pada mulanya projek ini bertujuan untuk membantu 
 proses pengumpulan data yang terdapat pada uganda dan brazil.
 
-![alt text][figure 1]
+![alt text](https://pbs.twimg.com/profile_images/1333706283/odk_medium_square.png)
 
 
 [figure 1] (https://pbs.twimg.com/profile_images/1333706283/odk_medium_square.png)
