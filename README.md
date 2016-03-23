@@ -1,12 +1,14 @@
 **Information System Departement Form**
+
 **Tenth November Institute Technology**
-**        With ODK Aggregate         **
+
+       **With ODK Aggregate**
 
 
 Foreword
 ========
 
-**Build By**
+Build By
 
 Julius Andro Perdana - 5212100062
 Asa Pramudya Kristanto - 5212100051
@@ -29,7 +31,11 @@ tujuan dari proyek ini :
 
 Expectation
 -----------
-	Harapan kami agar form surat ini dapat berkembang dan memiliki, banyak fitur-fitur sehingga memudahkan proses
+
+Harapan kami agar form surat ini dapat berkembang dan memiliki, banyak fitur-fitur sehingga
+memudahkan proses pengambilan data form dan memidahkan data tersebut ke dalam bentuk surat
+yang siap di print. Fitur- fitur dapat berupa bentuk aplikasi form yang mendukung banyak
+fitur penulisan form hingga sampai di backend admin penerima form.
 
 About Open data kit
 -------------------
@@ -45,12 +51,37 @@ seperti berikut :
 
 
 odk dimulai sebagai projek yang disponsori oleh google.org dibawah
-pengawasan direktur Gaetano Borriello pada April 2008 di kantor Google Seatle. Pada mulanya projek ini bertujuan untuk membantu 
+pengawasan direktur Gaetano Borriello pada April 2008 di kantor Google Seatle. 
+
+Pada mulanya projek ini bertujuan untuk membantu 
 proses pengumpulan data yang terdapat pada uganda dan brazil.
+dengan menggunakan teknologi android tools ini mempermudah
+pengumpulan survey data serta dapat dengan mudah memetakan
+data yang dikumpulkan.
 
 ![alt text](https://pbs.twimg.com/profile_images/1333706283/odk_medium_square.png)
+lebih lanjut tentang open data kit [Open Data Kit] (https://opendatakit.org/)
 
+Berikut dibawah ini merupakan contoh backend system odk
+yang digunakan untuk mengatur data yang telah diupload
+ataupun digunakan untuk melakukan proses upload data.
 
-[figure 1] (https://pbs.twimg.com/profile_images/1333706283/odk_medium_square.png)
-more about open data kit [Open Data Kit] (https://opendatakit.org/)
+![alt text](/screenshot/hasil.png)
 
+Sedangkan berikut ini merupakan contoh tampilan aplikasi
+odk pada android.
+
+![alt text](/screenshot/tampilan.PNG)
+
+deployment
+----------
+
+adapun tools-tools yang digunakan adalah sebagai berikut :
+1. database mysql
+2. ODK Aggregate v1.4.7 dapat di download di [ODK Download for windows](https://opendatakit.org/downloads/download-info/odk-aggregate-windows-installer-exe/)
+3. Server Tomcat
+4. aplkasi android odk [ download android.apk](https://opendatakit.org/downloads/download-info/odk-collect-apk/)
+5. open data kit xml builder dapat diakses melalui [build.opendatakit.org](http://build.opendatakit.org/)
+
+proses upload form
+------------------
