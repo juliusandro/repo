@@ -67,12 +67,12 @@ Berikut dibawah ini merupakan contoh backend system odk
 yang digunakan untuk mengatur data yang telah diupload
 ataupun digunakan untuk melakukan proses upload data.
 
-![alt text](screenshot/hasil.png)
+![alt text](https://github.com/juliusandro/repo/tree/master/screenshot/hasil.png)
 
 Sedangkan berikut ini merupakan contoh tampilan aplikasi
 odk pada android.
 
-![alt text](screenshot/tampilan.PNG)
+![alt text](https://github.com/juliusandro/repo/tree/master/screenshot/tampilan.PNG)
 
 deployment
 ----------
