@@ -1,9 +1,9 @@
 <h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
   <h:head>
-    <h:title>surat penugasan</h:title>
+    <h:title>form penugasan</h:title>
     <model>
       <instance>
-        <data id="build_surat-penugasan_1458596027">
+        <data id="form-penugasan">
           <meta>
             <instanceID/>
           </meta>
@@ -11,12 +11,10 @@
           <form_tanggal/>
           <form_group jr:template="">
             <nama/>
-            <jabatan/>
           </form_group>
           <instansi/>
           <alamat/>
           <form_Keterangan/>
-          <ttd/>
         </data>
       </instance>
       <itext>
@@ -31,88 +29,166 @@
             <value>Nama dan NIP Tertuju</value>
           </text>
           <text id="/data/form_group/nama:label">
-            <value>Nama dan NIP</value>
+            <value>Nama dan NIP Tertuju</value>
           </text>
           <text id="/data/form_group/nama:hint">
-            <value>pilih nama dan NIP anda</value>
+            <value></value>
           </text>
           <text id="/data/form_group/nama:option0">
-            <value>195810051986031000-Prof. Ir. Arif Djunaidy, M.Sc., Ph.D.</value>
+            <value>195810051986031000-Prof.Ir.Arif_Djunaidy,M.Sc.,Ph.D.</value>
           </text>
           <text id="/data/form_group/nama:option1">
-            <value>196403051989031000-Ir. Khakim Ghozali, M.MT</value>
+            <value>196403051989031000-Ir.Khakim_Ghozali,M.MT</value>
           </text>
           <text id="/data/form_group/nama:option2">
-            <value>196503101991021000-Ir. Aris Tjahyanto, M.Kom</value>
+            <value>196503101991021000-Ir.Aris_Tjahyanto,M.Kom</value>
           </text>
           <text id="/data/form_group/nama:option3">
-            <value>196606021992031000-Ir. Achmad Holil Noor Ali, M.Kom.</value>
+            <value>196606021992031000-Ir.Achmad_Holil_Noor_Ali,M.Kom.</value>
           </text>
           <text id="/data/form_group/nama:option4">
-            <value>196907252003121000-Edwin Riksakomara, S.Kom.MT</value>
+            <value>196907252003121000-Edwin_Riksakomara,_S.Kom.MT</value>
           </text>
           <text id="/data/form_group/nama:option5">
-            <value>196911152005011000-Bambang Setiawan, S.Kom, MT</value>
+            <value>196911152005011000-Bambang_Setiawan,_S.Kom.MT</value>
           </text>
           <text id="/data/form_group/nama:option6">
-            <value>197002252009121000-Dr. Apol Pribadi Subriadi, ST., MT</value>
+            <value>197002252009121000-Dr.Apol_Pribadi_Subriadi,ST,MT</value>
           </text>
           <text id="/data/form_group/nama:option7">
-            <value>197004272005012000-Erma Suryani, ST., MT., Ph.D</value>
+            <value>197004272005012000-Erma_Suryani,ST.,MT.,Ph.D</value>
           </text>
           <text id="/data/form_group/nama:option8">
-            <value>197010102003121000-Mudjahidin, ST,.MT</value>
+            <value>197010102003121000-Mudjahidin,ST,.MT</value>
           </text>
           <text id="/data/form_group/nama:option9">
-            <value>197103132009121000-Sholiq, ST., M.Kom</value>
+            <value>197103132009121000-Sholiq,ST.,M.Kom</value>
           </text>
           <text id="/data/form_group/nama:option10">
-            <value>197302191998021000-Febriliyan Samopa, S.Kom., M.Kom.</value>
+            <value>197302191998021000-Febriliyan_Samopa,S.Kom.,M.Kom.</value>
           </text>
           <text id="/data/form_group/nama:option11">
-            <value>197504052008011000-Bekti Cahyo Hidayanto, S.Si., M.Kom.</value>
+            <value>197504052008011000-Bekti_Cahyo_Hidayanto,S.Si.,M.Kom.</value>
           </text>
           <text id="/data/form_group/nama:option12">
-            <value>197512112008121000-Tony Dwi Susanto, ST., MT., Ph.D</value>
+            <value>197512112008121000-Tony_Dwi_Susanto,ST.,MT.,Ph.D</value>
           </text>
           <text id="/data/form_group/nama:option13">
-            <value>197601232001122000-Wiwik Anggraeni, S.Si.,M.Kom</value>
+            <value>197601232001122000-Wiwik_Anggraeni,S.Si.,M.Kom</value>
           </text>
           <text id="/data/form_group/nama:option14">
-            <value>197610112006042000-Mahendrawathi ER., ST.,M.Sc.,Ph.D.</value>
+            <value>197610112006042000-Mahendrawathi_ER.,ST.,M.Sc.,Ph.D.</value>
           </text>
           <text id="/data/form_group/nama:option15">
-            <value>197704082002121000-Faizal Johan Atletiko, S.Kom.</value>
+            <value>197704082002121000-Faizal_Johan_Atletiko,S.Kom.</value>
           </text>
           <text id="/data/form_group/nama:option16">
-            <value>198106112008121000-Danu Pranantha, ST, M.Sc</value>
+            <value>198106112008121000-Danu_Pranantha,ST,M.Sc</value>
           </text>
           <text id="/data/form_group/nama:option17">
-            <value>198107172012122000-Renny Pradina Kusumawardani, ST., MT.</value>
+            <value>198107172012122000-Renny_Pradina_Kusumawardani,ST.,MT.</value>
           </text>
           <text id="/data/form_group/nama:option18">
-            <value>198112292005011000-Rully Agus Hendrawan, S.Kom., M.Eng</value>
+            <value>198112292005011000-Rully_Agus_Hendrawan,S.Kom.,M.Eng</value>
           </text>
           <text id="/data/form_group/nama:option19">
-            <value>198201202005012000-Nur Aini Rakhmawati, S.Kom., M.Sc.Eng</value>
+            <value>198201202005012000-Nur_Aini_Rakhmawati,S.Kom.,M.Sc.Eng</value>
           </text>
           <text id="/data/form_group/nama:option20">
-            <value>198203022009121000-Ahmad Muklason, S.Kom., M.Sc</value>
+            <value>198203022009121000-Ahmad_Muklason,_S.Kom.,_M.Sc</value>
           </text>
           <text id="/data/form_group/nama:option21">
-            <value>198302232009122000-Feby Artwodini Muqtadiroh, S.Kom., M.T</value>
+            <value>198302232009122000-Feby_Artwodini_Muqtadiroh,S.Kom.,M.T</value>
           </text>
           <text id="/data/form_group/nama:option22">
-            <value>198303062012121000-Arif Wibisono, S.Kom.,M.Sc</value>
+            <value>198303062012121000-Arif_Wibisono,S.Kom.,M.Sc</value>
           </text>
           <text id="/data/form_group/nama:option23">
-            <value>198305272010121000-Nisfu Asrul Sani, S. Kom, M.Sc</value>
+            <value>198302232009122000-Feby_Artwodini_Muqtadiroh,S.Kom.,M.T</value>
           </text>
           <text id="/data/form_group/nama:option24">
-            <value>198402032010121000-Radityo Prasetianto Wibowo, S.Kom, M.Kom.</value>
+            <value>198402032010121000-Radityo_Prasetianto_Wibowo,S.Kom,M.Kom.</value>
           </text>
-          <text id="/data/form_group/jabatan:label">
-            <value>Jabatan</value>
+          <text id="/data/form_group/nama:option25">
+            <value>198405182014041000-Hatma_Suryotrisongko,S.Kom,M.Eng</value>
+          </text>
+          <text id="/data/form_group/nama:option26">
+            <value>198410292010122000-Hanim_Maria_Astuti,S.Kom,M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option27">
+            <value>198507292014042000-Eko_Wahyu_Tyas_Darmaningrat,S.Kom,M.BA</value>
+          </text>
+          <text id="/data/form_group/nama:option28">
+            <value>198601092014042000-Irmasari_Hafidz,S.Kom.,M.Sc.</value>
+          </text>
+          <text id="/data/form_group/nama:option29">
+            <value>198701232014042000-Raras_Tyasnurita,S.Kom,M.BA</value>
+          </text>
+          <text id="/data/form_group/nama:option30">
+            <value>5200201301002-Amna_Shifia_Nisafani,S.Kom,M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option31">
+            <value>5200201301005-Anisah_Herdiyanti_Prabowo,S.Kom,M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option32">
+            <value>5200201301007-Amalia_Utamima,S.Kom,M.BA</value>
+          </text>
+          <text id="/data/form_group/nama:option33">
+            <value>5200201301008-Retno_Aulia_Vinarti,S.Kom,M.Kom</value>
+          </text>
+          <text id="/data/form_group/nama:option34">
+            <value>5200201301010-Faizal_Mahananto,S.Kom,M.Eng</value>
+          </text>
+          <text id="/data/form_group/nama:option35">
+            <value>5200201308011-Andre_Parvian_Aristio,S.Kom,M.Sc</value>
+          </text>
+          <text id="/data/form_group/nama:option36">
+            <value>197811202009102000-Veni_Nopeanti,S.E.</value>
+          </text>
+          <text id="/data/form_group/nama:option37">
+            <value>196609121987021000-Jarwo</value>
+          </text>
+          <text id="/data/form_group/nama:option38">
+            <value>196910122001121000-Hermono,A.Md.</value>
+          </text>
+          <text id="/data/form_group/nama:option39">
+            <value>198104032010122000-Rini Ekowati,A.Md.</value>
+          </text>
+          <text id="/data/form_group/nama:option40">
+            <value>198608212014042000-Maya_Puspita,A.Md</value>
+          </text>
+          <text id="/data/form_group/nama:option41">
+            <value>198708102010121000-Nanok_Adi_Saputra</value>
+          </text>
+          <text id="/data/form_group/nama:option42">
+            <value>520005001-Choirul_Anam</value>
+          </text>
+          <text id="/data/form_group/nama:option43">
+            <value>520009001-Susi_Alfiah_Noor,A.Md</value>
+          </text>
+          <text id="/data/form_group/nama:option44">
+            <value>520010002-Sugeng_Hariadi_Imawan,S.Psi</value>
+          </text>
+          <text id="/data/form_group/nama:option45">
+            <value>520010007-Wahyu_Endang_Sri_Wulandari,A.Md</value>
+          </text>
+          <text id="/data/form_group/nama:option46">
+            <value>520010003-Ninda_Hayyu_Dwi_Prinorma_S.Psi</value>
+          </text>
+          <text id="/data/form_group/nama:option47">
+            <value>520010009-Ricky_Asrul_Sani,A.Md</value>
+          </text>
+          <text id="/data/form_group/nama:option48">
+            <value>520011001-Arokhi_Widya_Rozakhi</value>
+          </text>
+          <text id="/data/form_group/nama:option49">
+            <value>120010004-Irvian_Ayu_Novani</value>
+          </text>
+          <text id="/data/form_group/nama:option50">
+            <value>520014001-Achmad_Syaiful_Susanto,S.E</value>
+          </text>
+          <text id="/data/form_group/nama:option51">
+            <value>520014002-Rio_Tria_Hardhitya,A.Md.</value>
           </text>
           <text id="/data/instansi:label">
             <value>Nama Instansi Penugasan</value>
@@ -126,20 +202,15 @@
           <text id="/data/form_Keterangan:hint">
             <value>tuliskan kepentinganya</value>
           </text>
-          <text id="/data/ttd:label">
-            <value>Tanda Tangan</value>
-          </text>
         </translation>
       </itext>
       <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
       <bind nodeset="/data/form_dasarPenugasan" type="string" required="true()"/>
       <bind nodeset="/data/form_tanggal" type="date" required="true()"/>
-      <bind nodeset="/data/form_group/nama" type="select" required="true()"/>
-      <bind nodeset="/data/form_group/jabatan" type="string" required="true()"/>
+      <bind nodeset="/data/form_group/nama" type="select1"/>
       <bind nodeset="/data/instansi" type="string"/>
       <bind nodeset="/data/alamat" type="string" required="true()"/>
       <bind nodeset="/data/form_Keterangan" type="string" required="true()"/>
-      <bind nodeset="/data/ttd" type="binary" required="true()"/>
     </model>
   </h:head>
   <h:body>
@@ -152,113 +223,218 @@
     <group>
       <label ref="jr:itext('/data/form_group:label')"/>
       <repeat nodeset="/data/form_group" appearance="field-list">
-        <select ref="/data/form_group/nama">
+        <select1 ref="/data/form_group/nama">
           <label ref="jr:itext('/data/form_group/nama:label')"/>
           <hint ref="jr:itext('/data/form_group/nama:hint')"/>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option0')"/>
-            <value>51986031000-Prof. Ir. Arif Djunaidy, M.Sc., Ph.D.</value>
+            <value>195810051986031000-Prof.Ir.Arif_Djunaidy,M.Sc.,Ph.D.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option1')"/>
-            <value>196403051989031000-Ir. Khakim Ghozali, M.MT</value>
+            <value>196403051989031000-Ir.Khakim_Ghozali,M.MT</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option2')"/>
-            <value>196503101991021000-Ir. Aris Tjahyanto, M.Kom</value>
+            <value>196503101991021000-Ir.Aris_Tjahyanto,M.Kom</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option3')"/>
-            <value>196606021992031000-Ir. Achmad Holil Noor Ali, M.Kom.</value>
+            <value>196606021992031000-Ir.Achmad_Holil_Noor_Ali,M.K</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option4')"/>
-            <value>196907252003121000-Edwin Riksakomara, S.Kom.MT</value>
+            <value>196907252003121000-Edwin_Riksakomara,_S.Kom.MT</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option5')"/>
-            <value>196911152005011000-Bambang Setiawan, S.Kom, MT</value>
+            <value>196911152005011000-Bambang_Setiawan,_S.Kom.MT</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option6')"/>
-            <value>197002252009121000-Dr. Apol Pribadi Subriadi, ST., MT</value>
+            <value>197002252009121000-Dr.Apol_Pribadi_Subriadi,ST,MT</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option7')"/>
-            <value>197004272005012000-Erma Suryani, ST., MT., Ph.D</value>
+            <value>197004272005012000-Erma_Suryani,ST.,MT.,Ph.D</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option8')"/>
-            <value>197010102003121000-Mudjahidin, ST,.MT</value>
+            <value>197010102003121000-Mudjahidin,ST,.MT</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option9')"/>
-            <value>197103132009121000-Sholiq, ST., M.Kom</value>
+            <value>197103132009121000-Sholiq,ST.,M.Kom</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option10')"/>
-            <value>197302191998021000-Febriliyan Samopa, S.Kom., M.Kom.</value>
+            <value>197302191998021000-Febriliyan_Samopa,S.Kom.,M.Kom.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option11')"/>
-            <value>197504052008011000-Bekti Cahyo Hidayanto, S.Si., M.Kom.</value>
+            <value>197504052008011000-Bekti_Cahyo_Hidayanto,S.Si.,M.Kom.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option12')"/>
-            <value>197512112008121000-Tony Dwi Susanto, ST., MT., Ph.D</value>
+            <value>197512112008121000-Tony_Dwi_Susanto,ST.,MT.,Ph.D</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option13')"/>
-            <value>197601232001122000-Wiwik Anggraeni, S.Si.,M.Kom</value>
+            <value>197601232001122000-Wiwik_Anggraeni,S.Si.,M.Kom</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option14')"/>
-            <value>197610112006042000-Mahendrawathi ER., ST.,M.Sc.,Ph.D.</value>
+            <value>197610112006042000-Mahendrawathi_ER.,ST.,M.Sc.,Ph.D.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option15')"/>
-            <value>197704082002121000-Faizal Johan Atletiko, S.Kom.</value>
+            <value>197704082002121000-Faizal_Johan_Atletiko,S.Kom.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option16')"/>
-            <value>198106112008121000-Danu Pranantha, ST, M.Sc</value>
+            <value>198106112008121000-Danu_Pranantha,ST,M.Sc</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option17')"/>
-            <value>1981071720121220000Renny Pradina Kusumawardani, ST., MT.</value>
+            <value>198107172012122000-Renny_Pradina_Kusumawardani,ST.,MT.</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option18')"/>
-            <value>198112292005011000-Rully Agus Hendrawan, S.Kom., M.Eng</value>
+            <value>198112292005011000-Rully_Agus_Hendrawan,S.Kom.,M.Eng</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option19')"/>
-            <value>198201202005012000-Nur Aini Rakhmawati, S.Kom., M.Sc.Eng</value>
+            <value>198201202005012000-Nur_Aini_Rakhmawati,S.Kom.,M.Sc.Eng</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option20')"/>
-            <value>198203022009121000-Ahmad Muklason, S.Kom., M.Sc</value>
+            <value>198203022009121000-Ahmad_Muklason,_S.Kom.,_M.Sc</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option21')"/>
-            <value>198302232009122000-Feby Artwodini Muqtadiroh, S.Kom., M.T</value>
+            <value>198302232009122000-Feby_Artwodini_Muqtadiroh,S.Kom.,M.T</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option22')"/>
-            <value>198303062012121000-Arif Wibisono, S.Kom.,M.Sc</value>
+            <value>198303062012121000-Arif_Wibisono,S.Kom.,M.Sc</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option23')"/>
-            <value>198305272010121000-Nisfu Asrul Sani, S. Kom, M.Sc</value>
+            <value>198302232009122000-Feby_Artwodini_Muqtadiroh,S.Kom.,M.T</value>
           </item>
           <item>
             <label ref="jr:itext('/data/form_group/nama:option24')"/>
-            <value>198402032010121000-Radityo Prasetianto Wibowo, S.Kom, M.Kom.</value>
+            <value>198402032010121000-Radityo_Prasetianto_Wibowo,S.Kom,M.Kom.</value>
           </item>
-        </select>
-        <input ref="/data/form_group/jabatan">
-          <label ref="jr:itext('/data/form_group/jabatan:label')"/>
-        </input>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option25')"/>
+            <value>198405182014041000-Hatma_Suryotrisongko,S.Kom,M.Eng</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option26')"/>
+            <value>198410292010122000-Hanim_Maria_Astuti,S.Kom,M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option27')"/>
+            <value>198507292014042000-Eko_Wahyu_Tyas_Darmaningrat,S.Kom,M.BA</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option28')"/>
+            <value>198601092014042000-Irmasari_Hafidz,S.Kom.,M.Sc.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option29')"/>
+            <value>198701232014042000-Raras_Tyasnurita,S.Kom,M.BA</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option30')"/>
+            <value>5200201301002-Amna_Shifia_Nisafani,S.Kom,M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option31')"/>
+            <value>5200201301005-Anisah_Herdiyanti_Prabowo,S.Kom,M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option32')"/>
+            <value>5200201301007-Amalia_Utamima,S.Kom,M.BA</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option33')"/>
+            <value>5200201301008-Retno_Aulia_Vinarti,S.Kom,M.Kom</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option34')"/>
+            <value>5200201301010-Faizal_Mahananto,S.Kom,M.Eng</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option35')"/>
+            <value>5200201308011-Andre_Parvian_Aristio,S.Kom,M.Sc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option36')"/>
+            <value>197811202009102000-Veni_Nopeanti,S.E.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option37')"/>
+            <value>196609121987021000-Jarwo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option38')"/>
+            <value>196910122001121000-Hermono,A.Md.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option39')"/>
+            <value>198104032010122000-Rini Ekowati,A.Md.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option40')"/>
+            <value>198608212014042000-Maya_Puspita,A.Md</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option41')"/>
+            <value>198708102010121000-Nanok_Adi_Saputra</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option42')"/>
+            <value>520005001-Choirul_Anam</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option43')"/>
+            <value>520009001-Susi_Alfiah_Noor,A.Md</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option44')"/>
+            <value>520010002-Sugeng_Hariadi_Imawan,S.Psi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option45')"/>
+            <value>520010007-Wahyu_Endang_Sri_Wulandari,A.Md</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option46')"/>
+            <value>520010003-Ninda_Hayyu_Dwi_Prinorma_S.Psi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option47')"/>
+            <value>520010009-Ricky_Asrul_Sani,A.Md</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option48')"/>
+            <value>520011001-Arokhi_Widya_Rozakhi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option49')"/>
+            <value>120010004-Irvian_Ayu_Novani</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option50')"/>
+            <value>520014001-Achmad_Syaiful_Susanto,S.E</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/form_group/nama:option51')"/>
+            <value>520014002-Rio_Tria_Hardhitya,A.Md.</value>
+          </item>
+        </select1>
       </repeat>
     </group>
     <input ref="/data/instansi">
@@ -271,8 +447,5 @@
       <label ref="jr:itext('/data/form_Keterangan:label')"/>
       <hint ref="jr:itext('/data/form_Keterangan:hint')"/>
     </input>
-    <upload ref="/data/ttd"  appearance="signature" mediatype="image/*">
-      <label ref="jr:itext('/data/ttd:label')"/>
-    </upload>
   </h:body>
 </h:html>
