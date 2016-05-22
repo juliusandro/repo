@@ -35,10 +35,10 @@ void loop()                     // run over and over again
  int reading = analogRead(sensorPin);  
 EthernetClient client = server.available();
 
-  float voltage = reading * 5.0;
+  int voltage = reading * 5.0;
  voltage /= 1024.0; 
  // now print out the temperature
- float temperatureC = ((voltage - 0.5) * 10) + 7 ;  //converting from 10 mv per degree wit 500 mV offset
+ int temperatureC = ((voltage - 0.5) * 10) + 7 ;  //converting from 10 mv per degree wit 500 mV offset
                                                //to degrees ((voltage - 500mV) times 100)
  Serial.print(temperatureC); Serial.println(" degrees C");
 
